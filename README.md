@@ -1,4 +1,4 @@
 # 20thFebAngular
 # Routing Concepts
 
-<img src="./src/assets/images/routing.gif" width: 800>
+<img src="./src/assets/images/routing1.gif" >
