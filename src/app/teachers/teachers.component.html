@@ -1,0 +1,21 @@
+<p>teachers works!</p>
+
+<table class="table">
+    <thead>
+      <tr >
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor="let teach of teachers">
+        <th scope="row">{{teach.id}}</th>
+        <td>{{teach.firstname}}</td>
+        <td>{{teach.lastname}}</td>
+        <td>{{teach.email}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
