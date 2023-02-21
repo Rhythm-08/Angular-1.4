@@ -22,6 +22,7 @@ import { CustomstyleDirective } from './customstyle.directive';
 import { Usd2inrPipe } from './custom_pipe/usd2inr.pipe';
 import { TrimStringPipe } from './custom_pipe/trimString.pipe';
 import { CapitalizeFirstChar } from './custom_pipe/capitalizefirstchar.pipe';
+import { MyBackgroundDirective } from './shared/my-background.directive';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CapitalizeFirstChar } from './custom_pipe/capitalizefirstchar.pipe';
     CustomstyleDirective,
     Usd2inrPipe,
     TrimStringPipe,
-    CapitalizeFirstChar
+    CapitalizeFirstChar,
+    MyBackgroundDirective
   ],
   imports: [
     BrowserModule,
