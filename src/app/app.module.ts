@@ -18,6 +18,10 @@ import { TeachersComponent } from './teachers/teachers.component';
 import { ImagesComponent } from './images/images.component';
 import { LogoutComponent } from './logout/logout.component';
 import { WrongrouteComponent } from './wrongroute/wrongroute.component';
+import { CustomstyleDirective } from './customstyle.directive';
+import { Usd2inrPipe } from './custom_pipe/usd2inr.pipe';
+import { TrimStringPipe } from './custom_pipe/trimString.pipe';
+import { CapitalizeFirstChar } from './custom_pipe/capitalizefirstchar.pipe';
 
 @NgModule({
   declarations: [
@@ -28,6 +32,10 @@ import { WrongrouteComponent } from './wrongroute/wrongroute.component';
     ImagesComponent,
     LogoutComponent,
     WrongrouteComponent,
+    CustomstyleDirective,
+    Usd2inrPipe,
+    TrimStringPipe,
+    CapitalizeFirstChar
   ],
   imports: [
     BrowserModule,

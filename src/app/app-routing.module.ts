@@ -10,7 +10,7 @@ const routes: Routes = [
   {path:'teachers',component:TeachersComponent},
   {path:'images',component:ImagesComponent},
   {path:'logout',component:LogoutComponent},
-  // {path:'**',component:WrongrouteComponent,pathMatch:'full'},
+  {path:'**',component:WrongrouteComponent,pathMatch:'full'},
   {path:'',redirectTo:'/students',pathMatch:'full'},
   {path:'students/:id/:firstname',component:StudentsComponent}
 ];
