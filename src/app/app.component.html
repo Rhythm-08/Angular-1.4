@@ -7,7 +7,13 @@
 <h1>Custom Directive in Angular</h1>
 <h2>Normal Heading</h2>
 <h2 appCustomstyle>Custom Heading</h2>
-<h2 [appMyBackground]="'lightgreen'">Custom Heading</h2>
+<h2 [appMyBackground]="'lightgreen'" [onHover]="'lightpink'">Custom Heading</h2>
 
 <h2>{{30 |usd2inr:80}} - custom pipe</h2>
 <h3>{{title | trimString:7 |capitalizeFirstChar}}</h3>
+
+<div *appUnless ="false">
+    <span>This is for testing</span>
+    <p>Condition is Fulfilled</p>
+</div> 
+
